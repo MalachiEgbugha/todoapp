@@ -9,8 +9,15 @@ const Edit = () => {
 
   return (
     <Layout>
-        <>
-        </>
+        <div id="editcontainer">
+            
+                <h1>Task Name</h1>
+                <div id="task">
+                    adhhdv
+
+                </div>
+            
+            </div>
        
     </Layout>
   );

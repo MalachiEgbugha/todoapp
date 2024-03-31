@@ -6,7 +6,7 @@ const Navbar1= () => {
  
  
   return (
-    <nav id="navbar">
+    <nav id="navbaredit">
         <div id="editcontent">
           
           <h1>Edit Task</h1>

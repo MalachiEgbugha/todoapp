@@ -12,6 +12,15 @@ body{
     
 
 }
+#navbaredit{
+    width: 635px;
+    height: 123px;
+    gap: 0px;
+    opacity: 0px;
+    background: #3556AB;
+    box-shadow: 0px 4px 4px 0px #00000026;
+
+}
 #navbar{
 width: 424px;
 height: 123px;
@@ -268,6 +277,26 @@ font-size: 24px;
 font-weight: 500;
 line-height: 28.13px;
 color: #FFFFFF;
+
+}
+/* edit main area */
+#editcontainer h1{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.44px;
+letter-spacing: 0.115em;
+color: #000000;
+
+}
+#task{
+width: 90%;
+height: 69px;
+border-radius: 9px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+background: #FDFDFD;
+border: 2px solid #CBCBCB
 
 
 }
