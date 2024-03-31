@@ -1,0 +1,255 @@
+body{
+    margin: 0px;
+    padding: 0px;
+   
+    
+    
+}
+
+.contain{
+    display: grid;
+    justify-content: center;
+    
+
+}
+#navbar{
+width: 424px;
+height: 123px;
+gap: 0px;
+opacity: 0px;
+background: #3556AB;
+box-shadow: 0px 4px 4px 0px #00000026;
+
+}
+#navcontent{
+display: flex;
+justify-content: space-around;
+padding-top: 15px;
+width: 90%;
+height: 100%;
+gap: 0px;
+opacity: 0px;
+}
+ #navimg {
+  
+    width: 50px;
+    height: 50px;
+    padding-top: 0px;
+    background: url("../assets/images/user.png");
+    background-size: cover;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 50%;
+    
+
+ }
+ 
+ #navbarright{
+
+width: 221px;
+height: 79px;
+
+
+ }
+ div#title{
+width: 81px;
+height: 19px;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 18.75px;
+text-align: left;
+color: #ffffff;
+
+ }
+
+ .subtitle{
+width: 221px;
+height: 52px;
+opacity: 0px;
+font-family: Roboto;
+font-size: 25px;
+font-style: italic;
+font-weight: 100;
+line-height: 26.46px;
+text-align: left;
+color: #FFFFFF;
+
+ }
+/*  header area    */
+header{
+width: 414px;
+height: 116px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+background: #CDE53D;
+border: 2px solid #9EB031;
+box-shadow: 0px 4px 0px 0px #FFFFFF99 inset;
+}
+#banner_main{
+width: "100%";
+height: "100%";
+display: flex;
+justify-content: space-around;
+align-items: center;
+opacity: 0px;
+
+
+}
+#bannervector{
+    width: 53.1px;
+    height: 40.89px;
+    opacity: 0px;
+    background:url("../assets/images/vector.png");
+    background-size: cover;
+
+
+}
+#bannertext{
+opacity: 0px;
+font-family: Roboto;
+font-size: 18px;
+font-weight: bold;
+line-height: 19.05px;
+text-align: left;
+color: #071D55;
+
+
+}
+#bannerright{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 66.11px;
+height: 71px;
+top: 123px;
+left: 324.05px;
+gap: 0px;
+opacity: 0px;
+background: #071D55;
+
+
+
+}
+#bannerright span{
+font-family: Roboto;
+font-size: 18px;
+font-weight: 500;
+line-height: 19.05px;
+text-align: left;
+color: #F2C94C;
+
+
+}
+/* main items */
+#maincontainer{
+    background-color: #f3f3f3;
+}
+.main__container{
+    display: flex;
+    background-color: #f3f3f3;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.todoitems{
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 382px;
+height: 91px;
+margin-bottom: 10px;
+gap: 0px;
+opacity: 0px;
+box-shadow: 0px 4px 4px 0px #0000001A;
+background-color: #ffffff;
+
+
+}
+.checkbox{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    vertical-align: middle;
+    outline: none;
+    cursor: pointer;
+  -webkit-appearance: none;
+   
+    background: #ffffff;
+    border: 1.5px solid #071D55;
+    cursor: pointer;
+   
+
+    
+
+}
+.checkbox:checked {
+  
+    
+    background-image: url("../assets/images/check.png");
+    background-size: 32px 32px;
+    border-radius: 50%;
+   
+
+
+}
+
+
+.training{
+width: 140px;
+height: 16px;
+color: #071D55;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 16.08px;
+
+
+
+
+
+}
+
+.edit button{
+width: 51px;
+height: 45px;
+border-radius: 4px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+border: 1px solid #071D55;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 18.75px;
+text-align: left;
+color: #071D55;
+
+
+
+}
+/*  add task*/
+#add{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 338px;
+    gap: 0px;
+    border-radius: 50%;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    border: 2px solid #123EB1;
+    background-color: #123EB1 ;
+}
+.addicon{
+width: 21px;
+height: 42px;
+font-family: Roboto;
+font-size: 36px;
+font-weight: 400;
+line-height: 42.19px;
+color: #FFFFFF;
+
+}
