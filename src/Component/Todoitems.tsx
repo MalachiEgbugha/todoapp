@@ -1,6 +1,7 @@
 
 
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 type Props = {
@@ -20,7 +21,7 @@ const Todoitems = ({trainingdata}:Props) => {
 
             </div>
             <div className="edit">
-                <button>Edit</button>
+                <button><Link to={{pathname: '/edit',}} state={{textcontent:trainingdata}}>Edit</Link></button>
 
             </div>
 
