@@ -21,7 +21,7 @@ const Todoitems = ({trainingdata}:Props) => {
 
             </div>
             <div className="edit">
-                <button><Link to={{pathname: '/edit',}} state={{textcontent:trainingdata}}>Edit</Link></button>
+                <button><Link to={{pathname: '/edit'}}  state={{taskcontent:trainingdata}} >Edit</Link></button>
 
             </div>
 

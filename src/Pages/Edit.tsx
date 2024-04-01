@@ -1,10 +1,15 @@
 
 import React, { useState, useEffect } from "react";
 import Layout from "../Layout/EditLayout";
+import { useLocation } from 'react-router-dom';
 
 
 
-const Edit = () => {
+
+const Edit = (props:any) => {
+  
+    let { state } = useLocation();
+   
 
 
   return (
@@ -13,7 +18,7 @@ const Edit = () => {
             
                 <h1>Task Name</h1>
                 <div id="task">
-                    adhhdv
+                    <input type="text" value={state.taskcontent} />
 
                 </div>
             
