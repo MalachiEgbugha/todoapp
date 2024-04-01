@@ -21,6 +21,7 @@ const Edit = (props:any) => {
                     <input type="text" value={state.taskcontent} />
 
                 </div>
+                <button id="delete">Delete</button>
             
             </div>
        

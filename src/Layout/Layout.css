@@ -151,9 +151,11 @@ color: #F2C94C;
 
 }
 /* main items */
-#maincontainer{
+#maincontainer,#editcontainer{
     background-color: #f3f3f3;
+    height: 700px;
 }
+
 .main__container{
     display: flex;
     background-color: #f3f3f3;
@@ -247,6 +249,7 @@ color: #071D55;
     display: flex;
     justify-content: center;
     align-items: center;
+    top: 300px;
     left: 338px;
     gap: 0px;
     border-radius: 50%;
@@ -281,6 +284,7 @@ color: #FFFFFF;
 }
 /* edit main area */
 #editcontainer h1{
+    
 font-family: Roboto;
 font-size: 16px;
 font-weight: 400;
@@ -305,9 +309,36 @@ border: 2px solid #CBCBCB
     font-weight: 400;
     line-height: 24.3px;
     text-align: left;
+    background-origin: #ffffff;
     
 border: none;
 color: #0D2972;
+background-color: #ffffff;
+
+}
+#delete{
+    position: relative;
+width: 121px;
+height: 61px;
+top: 500px;
+left: 25px;
+gap: 0px;
+border-radius: 6px ;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+border: 2px solid #720D0D;
+background: #AB3535;
+box-shadow: 0px 3px 1px 0px #A8B5DE80 inset;
+box-shadow: 0px 4px 4px 0px #00000040;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.09px;
+text-align: center;
+color: #FFFFFF;
+
+
+
 
 
 }
