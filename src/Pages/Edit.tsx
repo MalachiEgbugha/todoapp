@@ -22,6 +22,7 @@ const Edit = (props:any) => {
 
                 </div>
                 <button id="delete">Delete</button>
+                <button id="save">Save</button>
             
             </div>
        

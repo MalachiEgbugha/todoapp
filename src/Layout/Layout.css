@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-color: #000000;
    
     
     
@@ -19,15 +20,17 @@ body{
     opacity: 0px;
     background: #3556AB;
     box-shadow: 0px 4px 4px 0px #00000026;
+    
 
 }
-#navbar{
+navbar{
 width: 424px;
 height: 123px;
 gap: 0px;
 opacity: 0px;
 background: #3556AB;
 box-shadow: 0px 4px 4px 0px #00000026;
+margin-bottom: 0px;
 
 }
 #navcontent{
@@ -154,7 +157,10 @@ color: #F2C94C;
 #maincontainer,#editcontainer{
     background-color: #f3f3f3;
     height: 700px;
+   
 }
+
+
 
 .main__container{
     display: flex;
@@ -336,6 +342,33 @@ font-weight: 400;
 line-height: 21.09px;
 text-align: center;
 color: #FFFFFF;
+
+
+
+
+
+}
+#save{
+    position: relative;
+    width: 436px;
+height: 61px;
+top: 500px;
+left: 65px;
+gap: 0px;
+border-radius: 6px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+background: #3556AB;
+border: 2px solid #0D2972;
+box-shadow: 0px 3px 1px 0px #A8B5DE80 inset;
+box-shadow: 0px 4px 4px 0px #00000040;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.09px;
+text-align: center;
+color: #FFFFFF;
+box-shadow: 0px 2px 0px 0px #000000;
 
 
 
